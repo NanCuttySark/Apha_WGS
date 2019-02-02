@@ -46,7 +46,7 @@ for i in range(1, 22):
     #
     # genera_abundance_table.to_csv(output_file_path, sep='\t')
 
-
+# for debager:
 # all_samples_abundance_table = pd.concat([df1, df2])
 
 

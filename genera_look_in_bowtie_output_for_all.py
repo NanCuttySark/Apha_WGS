@@ -9,8 +9,8 @@ for i in range(1, 21):
     # merg_glob_Gly_20_vs_all_bact_k5_bowtie.pseudosam
     # bowtie_sum_Gly_20_ext_all_mpq1_unique
     input_file_name = str('merg_glob_Gly_' + str(i) + '_vs_all_bact_k5_bowtie.pseudosam')
-    output_file_name_1 = str('bowtie_summary_Gly_'+ str(i) + '_ext_all_mpq20_unique')
-    output_file_name_2 = str('bowtie_summary_Gly_'+ str(i) + '_ext_all_mpq1_unique')
+    output_file_name_1 = str('bowtie_summary_Gly_' + str(i) + '_ext_all_mpq20_unique')
+    output_file_name_2 = str('bowtie_summary_Gly_' + str(i) + '_ext_all_mpq1_unique')
 
     full_path = os.path.join(pri_path, str(i) + sec_path + str(i))
     input_file_path = os.path.join(full_path, input_file_name)
